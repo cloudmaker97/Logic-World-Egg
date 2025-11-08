@@ -1,12 +1,12 @@
 {
     "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PANEL",
     "meta": {
-        "version": "PLCN_v2",
-        "update_url": null
+        "version": "PLCN_v3",
+        "update_url": "https://raw.githubusercontent.com/cloudmaker97/Logic-World-Egg/refs/heads/main/egg-logic-world.json"
     },
-    "exported_at": "2025-11-03T12:15:51+00:00",
+    "exported_at": "2025-11-08T22:29:19+00:00",
     "name": "Logic World",
-    "author": "hey@dennis-heinri.ch",
+    "author": "der@dennis-heinri.ch",
     "uuid": "7e7fe936-ebfc-40ab-8f5e-d29f1fa5d912",
     "description": "Logic World is a first-person sandbox simulation game that's all about digital logic. Play alone or with friends, invent new machines, build up layers of complexity, and experience the joy of circuits!",
     "tags": [],
@@ -17,7 +17,9 @@
         "ghcr.io/parkervcp/steamcmd:dotnet": "ghcr.io/parkervcp/steamcmd:dotnet"
     },
     "file_denylist": [],
-    "startup": "./Server/Server",
+    "startup_commands": {
+        "Default": "./Server/Server"
+    },
     "config": {
         "files": "{}",
         "startup": "{\n    \"done\": \"Server initialized.\"\n}",
