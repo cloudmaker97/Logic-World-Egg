@@ -23,6 +23,7 @@ Logic World is a first-person sandbox simulation game that's all about digital l
         - Steam password
     2. **Steam Mobile Authenticator**: Keep your Steam mobile authenticator app open during installation and server startup. You need to accept the login **at least twice** as we don't store Steam VDF config for security reasons.
     3. **Security Prompt**: When Steam shows security notifications, choose "Steam client", then "Other" for accepting.
+    4. Be advised, that anyone accessing your egg gets your steam password. So make sure, you are the only one who can access the server.
 
 4. **Happy Playing!**
 
