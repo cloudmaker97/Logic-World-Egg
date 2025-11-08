@@ -1,6 +1,6 @@
-# Logic World - Pterodactyl Panel Egg
+# Logic World - Pelican Egg
 
-A Pterodactyl / Pelican egg for hosting dedicated Logic World servers. This egg allows you to easily deploy and manage Logic World game servers through the Pterodactyl Panel interface.
+A Pelican / Pelican egg for hosting dedicated Logic World servers. This egg allows you to easily deploy and manage Logic World game servers through the Pelican Panel interface.
 
 ## About Logic World
 
@@ -10,7 +10,7 @@ Logic World is a first-person sandbox simulation game that's all about digital l
 
 1. **Import the Egg**
     - Download the egg configuration file
-    - Import it into your Pterodactyl Panel
+    - Import it into your Pelican Panel
 
 2. **Create a New Server**
     - Select the Logic World egg
@@ -40,11 +40,11 @@ Set the following environment variables in your server configuration:
 
 ### Server Configuration
 
-The Logic World server can be configured through the `config.jecs` file which is automatically created during installation. The egg automatically configures the server port to match the port assigned by Pterodactyl.
+The Logic World server can be configured through the `config.jecs` file which is automatically created during installation. The egg automatically configures the server port to match the port assigned by Pelican.
 
 ### Port Configuration
 
-The server will automatically use the port assigned by Pterodactyl Panel. The installation script modifies the `config.jecs` file to set the `DefaultPort` value accordingly.
+The server will automatically use the port assigned by Pelican Panel. The installation script modifies the `config.jecs` file to set the `DefaultPort` value accordingly.
 
 ## Troubleshooting
 
@@ -66,7 +66,7 @@ The server will automatically use the port assigned by Pterodactyl Panel. The in
 
 ### Log Locations
 
-Server logs are available through the Pterodactyl Panel console interface.
+Server logs are available through the Pelican Panel console interface.
 
 ## Links
 
