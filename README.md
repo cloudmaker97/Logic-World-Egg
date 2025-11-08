@@ -2,6 +2,8 @@
 
 A Pelican / Pelican egg for hosting dedicated Logic World servers. This egg allows you to easily deploy and manage Logic World game servers through the Pelican Panel interface.
 
+<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/b8cdea2d-c4da-411e-9246-3e6cb800e5b2" />
+
 ## About Logic World
 
 Logic World is a first-person sandbox simulation game that's all about digital logic. Play alone or with friends, invent new machines, build up layers of complexity, and experience the joy of circuits!
